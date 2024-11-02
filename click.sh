@@ -27,32 +27,56 @@ echo -e -n "\n $ylo Enter option:- "
 read choice
 case "$choice" in
 1)
-echo -e "Press Enter to start $red BACKUP: $rset"
+echo -e "$grn Press Enter to start BACKUP / Press n to exit: $rset"
 read b
+if [ "$b" == "n" ];then
+cd $HOME
+cd click
+bash click.sh
+else
 cd $HOME
 cd click/main
 bash backup.sh
+fi
 ;;
 2)
-echo -e "Press Enter to start $red RESTORE: $rset"
+echo -e "$grn Press Enter to start RESTORE / Press n to exit: $rset"
 read r
+if [ "$r" == "n" ];then
+cd $HOME
+cd click
+bash click.sh
+else
 cd $HOME
 cd click/main
 bash restore.sh
+fi
 ;;
 3)
-echo  -e"Press Enter to start $red UPDATE: $rset"
+echo  -e "$grn Press y to start UPDATE / Press n to exit: $rset"
 read u
+if [ "$u" == "n" ];then
+cd $HOME
+cd click
+bash click.sh
+else
 cd $HOME
 cd click/main
 bash update.sh
+fi
 ;;
 4)
-echo -e "Press Enter to start $red RESET: $rset"
+echo -e "$grn Press Enter to start RESET / Press n to exit: $rset"
 read R
+if [ "$R" == "n" ];then
+cd $HOME
+cd click
+bash click.sh
+else
 cd $HOME
 cd click/main
 bash reset.sh
+fi
 ;;
 5)
 clear

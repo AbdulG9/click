@@ -14,7 +14,7 @@ To get started, clone this repository and follow the installation instructions i
 
 ## Usage
 
-The CLI is intuitive, allowing you to perform operations seamlessly. Refer to the usage section in the documentation for detailed command options and examples.
+**** This will be updated soon ****
 
 ## Contributing
 

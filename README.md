@@ -29,15 +29,15 @@ To get started, clone this repository by following commands below:
 * **OPTIONS** :-
 * 
 * 1) **BACKUP**
--     This option creates a backup file of your termux named as "clickbackup.tar.gz" and saves it in your mobile home directory.
+     This option creates a backup file of your termux named as "clickbackup.tar.gz" and saves it in your mobile home directory.
      
 * 2) **RESTORE**
      This option restores termux using a backup file created by using this tool.
-     NOTE:- To restore termux a restoration file ie( clickbackup.tar.gz ) is supposed to be present in your mobiles home directory ie ( /storage/emulated/0/ ).
+* NOTE:- To restore termux a restoration file ie( clickbackup.tar.gz ) is supposed to be present in your mobiles home directory ie ( /storage/emulated/0/ ).
      
 * 3) **RESET**
       This option resets the termux by deletes all the files and directories of termux for a fresh start!
-      NOTE:- Consider creating an backup before resetting termux as the deleted data cant be restored if no backup file is present.
+* NOTE:- Consider creating an backup before resetting termux as the deleted data cant be restored if no backup file is present.
      
 * 4) **UPDATE**
      This option is used to Update click tool in just one tap.

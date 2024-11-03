@@ -66,6 +66,7 @@ bash update.sh
 fi
 ;;
 4)
+echo -e "$red *** NOTE:- ALL THE TERMUX TOOLS AND FILES WILL BE DELETED AND BE RESTORED *** $rset"
 echo -e "$grn Press Enter to start RESET / Press n to exit: $rset"
 read R
 if [ "$R" == "n" ];then
@@ -88,4 +89,8 @@ echo -e "
 |____/    |_|   |_____| (_)
 " | lolcat -a -d 3
 exit
+;;
+*)
+bash click.sh
+;;
 esac

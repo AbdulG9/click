@@ -4,17 +4,29 @@
 
 ## Features
 
-- **Backup**: Create comprehensive backups of your Termux files, packages, and settings with just one command.
-- **Restore**: Quickly restore your Termux environment from previously created backups, ensuring you can get back to work without hassle.
-- **Reset**: Easily reset your Termux setup to its original state, perfect for when you want a fresh start or need to troubleshoot issues.
+- **BACKUP**: Create comprehensive backups of your Termux files, packages, and settings with just one command.
+- **RESTORE**: Quickly restore your Termux environment from previously created backups, ensuring you can get back to work without hassle.
+- **RESET**: Easily reset your Termux setup to its original state, perfect for when you want a fresh start or need to troubleshoot issues.
+- - **UPDATE**: Easily update click tool with just one tap.
 
 ## Installation
 
-To get started, clone this repository and follow the installation instructions in the documentation.
+To get started, clone this repository by following commands below:
+* `apt-get update && upgrade -y`
+* `pkg install python -y`
+* `pkg install python2 -y`
+* `pkg install git -y`
+* `pip install lolcat`
+* `cd $HOME`
+* `git clone https://github.com/AbdulG9/click`
+* `cd click`
+* `./click.sh`
 
 ## Usage
 
-**** This will be updated soon ****
+* `cd click`
+* `./click.sh`
+* NOTE:- To restore termux a restoration file ie( clickbackup.tar.gz ) is supposed to be present in your mobiles home directory ie ( /storage/emulated/0/ )
 
 ## Contributing
 

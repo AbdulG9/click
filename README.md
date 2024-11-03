@@ -29,7 +29,7 @@ To get started, clone this repository by following commands below:
 * **OPTIONS** :-
 * 
 * 1) **BACKUP**
-     This option creates a backup file of your termux named as "clickbackup.tar.gz" and saves it in your mobile home directory.
+-     This option creates a backup file of your termux named as "clickbackup.tar.gz" and saves it in your mobile home directory.
      
 * 2) **RESTORE**
      This option restores termux using a backup file created by using this tool.
